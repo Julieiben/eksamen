@@ -1,0 +1,28 @@
+body{
+    background-image: url(forside1.svg);
+    background-size: cover;
+    aspect-ratio: 16/9;
+}
+
+.navn{
+    display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  gap:10px;
+}
+
+.container1{
+  color: white;
+  font-size: 6rem; 
+
+}
+
+.container2{
+   color: white;
+  font-size: 6rem;     
+}
+
+.container3{
+color: white;
+  font-size: 6rem;  
+}
