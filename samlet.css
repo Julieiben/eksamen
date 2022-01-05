@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
 }
-/* ________________________________Header__________________________________________ */
+    /* ________________________________Header mobil__________________________________________ */
 header {
     padding: 20px;
     display: flex;
@@ -15,13 +15,11 @@ header nav ul {
   justify-content: space-between;
   list-style: none;
   gap: 40px;
-  border: none;
-  font-size: 1.3rem;
-  padding-top: 15px;
-  padding-right: 15px;
+  font-size: 1rem;
+  padding-top: 5px;
+  padding-right: 10px;
 }
-
-/* ________________________________Nav_________________________________________ */
+/* ________________________________Nav mobil_________________________________________ */
 
 nav a{
     color: black;
@@ -31,29 +29,62 @@ nav a:hover{
   color: rgb(51, 51, 165);  
 }
 
-/* ______________________________________Logo___________________________________ */
 
+
+/* ______________________________________Logo mobil___________________________________ */
+
+.logo{
+  display: block;
+  width: 65px;
+  height: auto;
+  object-fit: cover;  
+}
+
+/* ____________________________Main mobil_________________________ */
+
+main{
+    margin: 30px;
+}
+
+
+/* _______________________________________Footer mobil___________________________________ */
+footer a, footer p{
+    color: black;
+    font-size: 1rem;
+}
+
+footer{
+    display: grid;
+    place-content: center;
+    line-height: 2rem;
+}
+
+@media (min-width: 800px) {
+/* _______________________________________Header web________________________________________ */
+header nav ul{
+font-size: 1.3rem;
+}
+
+/* _______________________________________Footer web___________________________________ */
+footer a, footer p{
+    color:black;
+    font-size: 1rem;
+    line-height: 4rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* __________________________________________Logo web_________________________________ */
 .logo{
   display: block;
   width: 110px;
   height: auto;
   object-fit: cover;  
 }
-
-/* _______________________________________Footer___________________________________ */
-footer a{
-    color: white;
-}
-
-footer{
-    justify-content: space-between;
-}
-
-.footer{
-    padding: 30px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    font-size: 1.3rem;
 }

@@ -1,0 +1,126 @@
+.first_section{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr; 
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr 1fr; 
+    background-image: url(Billeder/moerkgraablaa.png);
+    background-size: auto;
+    aspect-ratio: 226 /248;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+}
+
+.sprite1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+
+.container2{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr 1fr; 
+    background-image: url(Billeder/moerkeblaa.png);
+    background-size: auto;
+    aspect-ratio: 226 /248;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 78%);
+
+}
+
+.sprite2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr 1fr; 
+    background-image: url(Billeder/blaa.png);
+    background-size: auto;
+    aspect-ratio: 226 /248;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+}
+
+.sprite3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.container4{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr 1fr; 
+    background-image: url(Billeder/lyseblaa.png);
+    background-size: auto;
+    aspect-ratio: 226 /248;
+    clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%); 
+
+}
+
+.sprite4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.container5{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr 1fr; 
+    background-image: url(Billeder/blaablaa.png);
+    background-size: auto;
+    aspect-ratio: 226 /248;
+    clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
+
+}
+
+.sprite5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.container6{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:1fr 1fr 1fr; 
+    background-image: url(Billeder/graablaa.png);
+    background-size: auto;
+    aspect-ratio: 226 /248;
+    clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%); 
+
+}
+
+
+a{
+    color: white;
+}
+a:hover{
+    color: blanchedalmond;
+}
+@media (min-width: 800px){
+
+    
+}
