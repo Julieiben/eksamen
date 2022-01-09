@@ -18,6 +18,7 @@ header nav ul {
   font-size: 1rem;
   padding-top: 5px;
   padding-right: 10px;
+  font-family: 'Manrope', sans-serif;
 }
 /* ________________________________Nav mobil_________________________________________ */
 
@@ -57,6 +58,7 @@ footer{
     display: grid;
     place-content: center;
     line-height: 2rem;
+    font-family: 'Manrope', sans-serif;
 }
 
 @media (min-width: 800px) {

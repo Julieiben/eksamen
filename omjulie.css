@@ -1,19 +1,27 @@
-  
-  /* ____________________________________mobil________________________________ */
-  main{ 
-    background-image: url(Billeder/moerkgraablaa.png);
+main{
+    background-image: url(Billeder/blaablaa.png);
     background-size: auto;
-    aspect-ratio: 226 /248;
 }
-
 h1{
     font-size: 2rem;
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: 'Manrope', sans-serif;
+
 }
 h2{
     font-size: 1.2rem;
+    font-family: 'Manrope', sans-serif;    
+}
+h3{
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+p{
+        font-family: 'Manrope', sans-serif;
+        line-height: 1.7rem;
 }
    img{
        width: 80%;
@@ -26,11 +34,14 @@ h2{
 
         #second_section{
         padding-bottom: 5%;
+        text-align: center;
+        line-height: 30px;
     }
 
    #third_section{
        text-align: center;
        padding-bottom: 5%;
+       line-height: 30px;
    }
 
           .col_txt1{
@@ -39,6 +50,11 @@ h2{
            padding-right: 5%;
        }
           .col_txt2{
+           padding-bottom: 5%;
+           padding-left: 5%;
+           padding-right: 5%;
+       }
+            .col_txt3{
            padding-bottom: 5%;
            padding-left: 5%;
            padding-right: 5%;
@@ -62,11 +78,14 @@ h2{
         .section_wrapper2{
             display: grid;
             grid-template-columns:repeat(1fr 1fr);
-       }
-       .col_img2{
-           grid-column: 2;
+            grid-template-rows: 1fr;
        }
        .col_txt2{
+           grid-column: 2;
+           grid-row: 1
+       }
+       .col_txt3{
            grid-column: 1;
+           grid-row: 1
        }
    }

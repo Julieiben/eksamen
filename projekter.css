@@ -1,4 +1,4 @@
-.first_section{
+#first_section{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows:1fr 1fr; 
@@ -112,13 +112,20 @@
     clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%); 
 
 }
-
+.sprite6{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
 
 a{
     color: white;
+   font-family: 'Manrope', sans-serif; 
 }
 a:hover{
-    color: blanchedalmond;
+    color: rgb(215, 242, 255);
 }
 @media (min-width: 800px){
 

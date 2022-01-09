@@ -13,6 +13,11 @@
   grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
   gap:10px;
 }
+
+#first_section{
+font-family: 'Manrope', sans-serif;
+font-weight: 600;
+}
 .container1{
   color: white;
   font-size: 4rem; 
@@ -24,7 +29,7 @@
    color: white;
   font-size: 4rem;
   grid-column: 8/10;
-  grid-row: 3;     
+  grid-row: 3;   
 }
 
 .container3{

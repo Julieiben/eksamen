@@ -1,11 +1,7 @@
-  
-  /* ____________________________________mobil________________________________ */
-  main{ 
-    background-image: url(Billeder/moerkgraablaa.png);
+main{
+    background-image: url(Billeder/lyseblaa.png);
     background-size: auto;
-    aspect-ratio: 226 /248;
 }
-
 h1{
     font-size: 2rem;
     padding-left: 5%;

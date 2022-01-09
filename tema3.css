@@ -1,11 +1,7 @@
-  
-  /* ____________________________________mobil________________________________ */
   main{ 
-    background-image: url(Billeder/moerkgraablaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
+background-image: url(Billeder/moerkeblaa.png);
+background-size: auto;
 }
-
 h1{
     font-size: 2rem;
     padding-left: 5%;
