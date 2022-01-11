@@ -107,17 +107,17 @@
   text-align: center;
 }
 
-a {
+#first_section a {
   color: white;
   font-family: "Manrope", sans-serif;
 }
-a:hover {
+#first_section a:hover {
   color: rgb(215, 242, 255);
 }
 @media (max-width: 800px) {
-    #first_section{
-        gap: 10px;
-    }
+  #first_section {
+    gap: 10px;
+  }
   .container1 {
     width: 140px;
     height: 250px;
@@ -139,7 +139,7 @@ a:hover {
     height: 250px;
   }
   .container6 {
-   width: 140px;
+    width: 140px;
     height: 250px;
   }
   a {
