@@ -107,11 +107,11 @@
   text-align: center;
 }
 
-#first_section a {
+.att{
   color: white;
   font-family: "Manrope", sans-serif;
 }
-#first_section a:hover {
+.att:hover {
   color: rgb(215, 242, 255);
 }
 @media (max-width: 800px) {
@@ -142,7 +142,7 @@
     width: 140px;
     height: 250px;
   }
-  a {
+  .att {
     font-size: 1.1rem;
   }
 }
