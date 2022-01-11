@@ -16,6 +16,13 @@ h2 {
 p {
   font-family: "Manrope", sans-serif;
 }
+a{
+  font-family: "Manrope", sans-serif;
+  color: black;  
+}
+a:hover{
+    color: white;
+}
 img {
   width: 80%;
   padding-left: 10%;
