@@ -7,10 +7,15 @@ h1{
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: 'Manrope', sans-serif; 
 }
 h2{
     font-size: 1.2rem;
+    font-family: 'Manrope', sans-serif; 
     
+}
+p{
+    font-family: 'Manrope', sans-serif; 
 }
    img{
        width: 80%;

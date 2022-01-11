@@ -3,23 +3,6 @@
     padding: 0;
     text-decoration: none;
 }
-    /* ________________________________Header mobil__________________________________________ */
-header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  gap: 40px;
-  font-size: 1rem;
-  padding-top: 5px;
-  padding-right: 10px;
-  font-family: 'Manrope', sans-serif;
-}
 /* ________________________________Nav mobil_________________________________________ */
 
 nav a{
@@ -29,8 +12,6 @@ nav a{
 nav a:hover{
   color: rgb(51, 51, 165);  
 }
-
-
 
 /* ______________________________________Logo mobil___________________________________ */
 
@@ -61,12 +42,65 @@ footer{
     font-family: 'Manrope', sans-serif;
 }
 
-@media (min-width: 800px) {
-/* _______________________________________Header web________________________________________ */
-header nav ul{
-font-size: 1.3rem;
+/* ___________________________________header i mobil-version */
+@media (max-width: 750px) {
+.toggle-btn{
+    background-color: white;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+nav {
+    display: none;
 }
 
+nav.shown{
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    padding-left: 5%;
+}
+nav ul {
+    display: flex;
+    flex-flow: column;
+}
+header nav ul{
+    gap: 10px;
+}
+}
+/* _______________________________________Header web________________________________________ */
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-right: 10px;
+  font-family: 'Manrope', sans-serif;
+}
+
+@media (min-width: 800px) {
+.toggle-btn{
+    display: none;
+}
 /* _______________________________________Footer web___________________________________ */
 footer a, footer p{
     color:black;

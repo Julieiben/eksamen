@@ -1,6 +1,6 @@
   
   /* ____________________________________mobil________________________________ */
-  main{ 
+main{ 
     background-image: url(Billeder/moerkgraablaa.png);
     background-size: auto;
     aspect-ratio: 226 /248;
@@ -11,62 +11,103 @@ h1{
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: 'Manrope', sans-serif; 
+    color: white;
 }
 h2{
     font-size: 1.2rem;
+    font-family: 'Manrope', sans-serif; 
+    color: white;
 }
-   img{
-       width: 80%;
-       padding-left: 10%;
-   }
+p{
+    font-family: 'Manrope', sans-serif; 
+    color: white;
+}
+img{
+    width: 80%;
+    padding-left: 10%;
+}
 
-       #first_section{
-        padding-bottom: 5%;
-    }
+a{
+    color: white;
+}
+a:hover{
+  color: black;  
+}
 
-        #second_section{
-        padding-bottom: 5%;
-    }
+#first_section{
+    padding-bottom: 5%;
+}
 
-   #third_section{
-       text-align: center;
-       padding-bottom: 5%;
-   }
+#second_section{
+    padding-bottom: 5%;
+}
 
-          .col_txt1{
-           padding-top: 5%;
-           padding-left: 5%;
-           padding-right: 5%;
-       }
-          .col_txt2{
-           padding-bottom: 5%;
-           padding-left: 5%;
-           padding-right: 5%;
-       }
-   @media (min-width: 800px){
-       h1{
-           font-size: 4rem;
+#third_section{
+    padding-bottom: 5%;
+}
 
-       }
-       .section_wrapper1{
-            display: grid;
-            grid-template-columns:repeat(1fr 1fr);
-       }
-       .col_img1{
-           grid-column: 1;
-       }
-       .col_txt1{
-           grid-column: 2;
+.col_txt1{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.col_txt2{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.col_txt3{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (min-width: 800px){
+     h1{
+        font-size: 4rem;
        }
 
-        .section_wrapper2{
-            display: grid;
-            grid-template-columns:repeat(1fr 1fr);
-       }
-       .col_img2{
-           grid-column: 2;
-       }
-       .col_txt2{
-           grid-column: 1;
-       }
+ .section_wrapper1{
+    display: grid;
+    grid-template-columns:repeat(1fr 1fr);
+    padding-bottom: 5%;
+}
+.col_img1{
+   grid-column: 1;
+}
+.col_txt1{
+    grid-column: 2;
+}
+
+.section_wrapper2{
+    display: grid;
+    grid-template-columns:repeat(1fr 1fr);
+    padding-bottom: 5%;
+}
+
+.col_img2{
+     grid-column: 2;
+}
+
+.col_txt2{
+     grid-column: 1;
+}
+
+.section_wrapper3{
+    display: grid;
+     grid-template-columns:repeat(1fr 1fr);
+     grid-template-rows: 1;
+     padding-bottom: 5%;
+}
+
+.col_img3{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.col_txt3{
+    grid-column: 2;
+}
    }
