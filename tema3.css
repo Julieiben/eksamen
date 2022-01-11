@@ -19,10 +19,19 @@ p{
     font-family: 'Manrope', sans-serif;
     color: white; 
 }
+a{
+     color: white;
+     font-family: 'Manrope', sans-serif;
+     font-size: 1.2rem;
+}
+a:hover{
+     color: black;
+}
 img{
      width: 80%;
      padding-left: 10%;
 }
+
 
 #first_section{
      padding-bottom: 5%;
@@ -51,6 +60,14 @@ img{
      padding-left: 5%;
      padding-right: 5%;
 }
+.col_txt4{
+     padding-bottom: 5%;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+.col_img4{
+     padding-bottom: 5%;
+}
 
 @media (min-width: 800px){
 h1{
@@ -59,7 +76,7 @@ h1{
 
 .section_wrapper1{
      display: grid;
-     grid-template-columns:repeat(1fr 1fr);
+     grid-template-columns:1fr 1fr;
 }
 
 .col_img1{
@@ -72,7 +89,7 @@ h1{
 
 .section_wrapper2{
      display: grid;
-     grid-template-columns:repeat(1fr 1fr);
+     grid-template-columns:1fr 1fr;
 }
 
 .col_img2{
@@ -84,7 +101,7 @@ h1{
 
 .section_wrapper3{
      display: grid;
-     grid-template-columns:repeat(1fr 1fr);
+     grid-template-columns:1fr 1fr;
 }
 
 .col_img3{
@@ -94,5 +111,17 @@ h1{
 
 .col_txt3{
      grid-column: 2;
+}
+
+.section_wrapper4{
+     display: grid;
+     grid-template-columns:1fr 1fr;
+}
+
+.col_img4{
+     grid-column: 2;
+}
+.col_txt4{
+     grid-column: 1;
 }
 }

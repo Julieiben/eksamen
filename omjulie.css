@@ -60,7 +60,7 @@ p{
        }
        .section_wrapper1{
             display: grid;
-            grid-template-columns:repeat(1fr 1fr);
+            grid-template-columns:1fr 1fr;
        }
        .col_img1{
            grid-column: 1;
@@ -71,7 +71,7 @@ p{
 
         .section_wrapper2{
             display: grid;
-            grid-template-columns:repeat(1fr 1fr);
+            grid-template-columns:1fr 1fr;
             grid-template-rows: 1fr 1fr;
        }
        .col_txt2{

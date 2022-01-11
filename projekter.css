@@ -1,133 +1,148 @@
-#first_section{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr; 
-    gap: 20px;
-    justify-content: space-evenly;
+#first_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-content: space-evenly;
 }
 
-.container1{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr 1fr; 
-    background-image: url(Billeder/moerkgraablaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
-    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(Billeder/moerkgraablaa.png);
+  background-size: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 }
 
-.sprite1{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+.sprite1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-
-.container2{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr 1fr; 
-    background-image: url(Billeder/moerkeblaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 78%);
-
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(Billeder/moerkeblaa.png);
+  background-size: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 78%);
 }
 
-.sprite2{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+.sprite2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-.container3{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr 1fr; 
-    background-image: url(Billeder/blaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
-    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(Billeder/blaa.png);
+  background-size: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 }
 
-.sprite3{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+.sprite3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-.container4{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr 1fr; 
-    background-image: url(Billeder/lyseblaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
-    clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%); 
-
+.container4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(Billeder/lyseblaa.png);
+  background-size: auto;
+  clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.sprite4{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+.sprite4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-.container5{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr 1fr; 
-    background-image: url(Billeder/blaablaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
-    clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
-
+.container5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(Billeder/blaablaa.png);
+  background-size: auto;
+  clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
 }
 
-.sprite5{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+.sprite5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-.container6{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:1fr 1fr 1fr; 
-    background-image: url(Billeder/graablaa.png);
-    background-size: auto;
-    aspect-ratio: 226 /248;
-    clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%); 
-
+.container6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url(Billeder/graablaa.png);
+  background-size: auto;
+  clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%);
 }
-.sprite6{
-    grid-column: 1/4;
-    grid-row: 2/3;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+.sprite6 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-a{
-    color: white;
-   font-family: 'Manrope', sans-serif; 
+a {
+  color: white;
+  font-family: "Manrope", sans-serif;
 }
-a:hover{
-    color: rgb(215, 242, 255);
+a:hover {
+  color: rgb(215, 242, 255);
 }
-@media (min-width: 800px){
-
-    
+@media (max-width: 800px) {
+    #first_section{
+        gap: 10px;
+    }
+  .container1 {
+    width: 140px;
+    height: 250px;
+  }
+  .container2 {
+    width: 140px;
+    height: 250px;
+  }
+  .container3 {
+    width: 140px;
+    height: 250px;
+  }
+  .container4 {
+    width: 140px;
+    height: 250px;
+  }
+  .container5 {
+    width: 140px;
+    height: 250px;
+  }
+  .container6 {
+   width: 140px;
+    height: 250px;
+  }
+  a {
+    font-size: 1.1rem;
+  }
 }

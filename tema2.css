@@ -3,7 +3,6 @@
 main{ 
     background-image: url(Billeder/moerkgraablaa.png);
     background-size: auto;
-    aspect-ratio: 226 /248;
 }
 
 h1{
@@ -71,7 +70,7 @@ a:hover{
 
  .section_wrapper1{
     display: grid;
-    grid-template-columns:repeat(1fr 1fr);
+    grid-template-columns:1fr 1fr;
     padding-bottom: 5%;
 }
 .col_img1{
@@ -83,7 +82,7 @@ a:hover{
 
 .section_wrapper2{
     display: grid;
-    grid-template-columns:repeat(1fr 1fr);
+    grid-template-columns:1fr 1fr;
     padding-bottom: 5%;
 }
 
@@ -97,8 +96,8 @@ a:hover{
 
 .section_wrapper3{
     display: grid;
-     grid-template-columns:repeat(1fr 1fr);
-     grid-template-rows: 1;
+     grid-template-columns:1fr 1fr;
+     grid-template-rows: 1fr;
      padding-bottom: 5%;
 }
 
